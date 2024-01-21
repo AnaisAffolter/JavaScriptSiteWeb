@@ -1,0 +1,247 @@
+@font-face {
+    font-family: 'FreestyleScript';
+    src: url('../police/FREESCPT.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.fontTitle {
+    font-family: 'FreestyleScript';
+    font-size: 500%;
+    ;
+}
+
+* {
+    margin: 0;
+}
+
+* {
+    font-family: sans-serif;
+}
+
+body {
+    width: 100vw;
+    margin: 0;
+}
+
+header {
+    width: 100vw;
+    min-height: 7vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around
+}
+
+.aHeader {
+    width: 33%;
+}
+
+.aHeader:hover {
+    font-weight: bold;
+}
+
+#imageLogoCompany {
+    width: 40%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 100%;
+}
+
+main {
+    width: 100vw;
+    min-height: 65vh;
+    background-color: rgb(254, 235, 231);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contactBox {
+    width: 50%;
+}
+
+.contactBoxLeft {
+    text-align: center;
+}
+
+form{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+form > div {
+    margin: 20px 20px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input{
+    height: 20px;
+    width: 100%;
+}
+
+.success{
+    background-color: rgb(135, 209, 135);
+}
+
+.invalid{
+    background-color: rgb(221, 15, 53);
+}
+
+button {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    border: 15px solid #d1435e;
+    border-radius: 30px;
+    background-color: #d1435e;
+    width: 50%;
+}
+
+.message-error {
+    color:  rgb(221, 15, 53);
+    background: rgb(255, 255, 255);
+    padding: 8px 16px;
+    margin-bottom: 20px;
+    display: none;
+}
+
+.message-success {
+    border: 1px solid rgb(81, 150, 2);
+    color: rgb(81, 150, 2);
+    background-color: rgba(113, 212, 0, 0.4);
+    padding: 16px 32px;
+    margin-bottom: 20px;
+    display: none;
+}
+
+.message-error.visible, .message-success.visible {
+    display: block;
+}
+
+.contactBoxRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    margin-top: 2%;
+}
+
+.darkMode {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 60px;
+    cursor: pointer;
+    border: 15px solid #000000;
+    border-radius: 30px;
+    background-color: #000000;
+    width: 10%;
+    color: white;
+}
+
+#footerMark {
+    width: 100%;
+    text-align: center;
+}
+
+.footerText {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 50%;
+    text-align: center;
+}
+
+.footerTitle {
+    margin-bottom: 2%;
+}
+
+.imageLogoSocialMedia {
+    width: 1.5%;
+}
+
+.dark {
+    background-color: rgb(0, 0, 0);
+}
+
+
+.dark #imageLogoCompany {
+    filter: invert(1);
+}
+
+.dark p {
+    color: white;
+}
+.dark label {
+    color: white;
+}
+
+.dark a {
+    color: white;
+}
+
+.dark .fontTitle {
+    color: white;
+}
+
+.dark .titleServices {
+    color: rgb(225, 202, 197);
+}
+
+.dark main {
+    background-color: #d1435e;
+}
+
+.dark button {
+    border: 15px solid rgb(225, 202, 197);
+    background-color: rgb(225, 202, 197);
+    color: black;
+}
+
+.dark .footerText {
+    color: white;
+}
+.dark #footerMark {
+    filter: invert(1);
+}
+
+@media screen and (max-width: 1024px) {
+
+    /* Nouvelles règles si la fenêtre fait  1024px de large ou moins */
+    .fontTitle {
+        font-size: 650%;
+        ;
+    }
+
+    #imageLogoCompany {
+        width: 70%;
+    }
+
+    main {
+        min-height: 75vh;
+    }
+
+    #contactDescriptionTitle {
+        margin-top: 8%;
+        margin-bottom: 8%;
+        font-size: 200%;
+    }
+
+}

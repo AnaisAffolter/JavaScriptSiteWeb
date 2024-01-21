@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elhwing Portfolio - Contact</title>
+    <link rel="stylesheet" href="css/contactPage.css">
+</head>
+
+<body>
+    <header>
+        <a class="aHeader" href="contactPage.html">CONTACT</a>
+        <a class="aHeader" href="index.html">
+            <img id="imageLogoCompany" src="image/logoEntreprise.png" alt="logo de l'entreprise">
+        </a>
+        <a class="aHeader" href="portfolioPage.html">PORTFOLIO</a>
+    </header>
+    <main>
+        <section class="contactBox contactBoxLeft">
+            <h2 class="fontTitle">S'inscrire</h2>
+        </section>
+        <div class="contactBox contactBoxRight">
+            <div class="message-error">
+                <ul class="message-error"></ul>
+            </div>
+            <div class="message-success">
+                <li>Formulaire envoyé </li>
+            </div>
+            <form action="" method="POST" enctype="multipart/form-data">
+                <div>
+                    <label for="pseudo">Pseudo</label>
+                    <input type="text" name="pseudo" id="pseudo">
+                </div>
+
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                </div>
+
+                <div>
+                    <label for="password">Mot de passe</label>
+                    <input type="password" name="password" id="password">
+                </div>
+
+                <div>
+                    <label for="password2">Entrer à nouveau le mot de passe</label>
+                    <input type="password2" name="password2" id="password2">
+                </div>
+
+                <button type="submit">S'INSCRIRE</button>
+            </form>
+        </div>
+    </main>
+    <!--
+            <form id="formulaireContact" action="" method="post">
+                <div class="formElement">
+                    <label class="formLabel" for="nom">Nom&nbsp;(obligatoire)&nbsp;:</label>
+                    <input class="formInput" type="text" id="name" name="user_name" placeholder="Prénom Nom" />
+                </div>
+                <div class="formElement">
+                    <label class="formLabel" for="mail">Email&nbsp;(obligatoire)&nbsp;:</label>
+                    <input class="formInput" type="email" id="mail" name="user_mail" placeholder="E-mail" />
+                </div>
+                <div class="formElement">
+                    <label class="formLabel" for="msg">Message&nbsp;:</label>
+                    <textarea class="formInput" id="msg" name="user_message" placeholder="Message"></textarea>
+                </div>
+                <div class="buttonBox">
+                    <button id="button" type="submit">ENVOYER</button>
+                </div>
+            </form>-->
+
+    <footer>
+        <button class="darkMode">MODIFIER LE MODE</button>
+        <a id="footerMark" href="index.html"><img src="image/logoEntreprise.png" alt="logo de l'entreprise"></a>
+        <section class="footerText">
+            <h2 class="footerTitle">Contact</h2>
+            <p>affolteranais@gmail.com</p>
+        </section>
+        <section class="footerText">
+            <h2 class="footerTitle">Mes réseaux sociaux</h2>
+            <div>
+                <a href="https://www.instagram.com/elhwing_art/"><img class="imageLogoSocialMedia"
+                        src="image/logoInstagram.png" alt="logo d'instagram">
+                    INSTAGRAM</a>
+            </div>
+            <div>
+                <a href="https://www.linkedin.com/in/ana%C3%AFs-affolter-50aa1428b/"><img class="imageLogoSocialMedia"
+                        src="image/logoLinkedIN.jpg" alt="logo de linkedin">
+                    LINKEDIN</a>
+            </div>
+        </section>
+
+    </footer>
+    <script src="contactPage.js"></script>
+</body>
+
+</html>

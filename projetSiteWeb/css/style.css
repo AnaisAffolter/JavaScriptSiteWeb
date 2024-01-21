@@ -1,0 +1,344 @@
+@font-face {
+    font-family: 'FreestyleScript';
+    src: url('../police/FREESCPT.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.fontTitle {
+    font-family: 'FreestyleScript';
+    font-size: 300%;
+}
+
+* {
+    margin: 0;
+}
+
+* {
+    font-family: sans-serif;
+}
+
+body {
+    width: 100vw;
+    margin: 0;
+}
+
+header {
+    width: 100vw;
+    min-height: 7vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around
+}
+
+.aHeader {
+    width: 33%;
+}
+
+.aHeader:hover {
+    font-weight: bold;
+}
+
+#imageLogoCompany {
+    width: 40%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 100%;
+}
+
+#imageBackground {
+    background-image: url(../image/imageDeFond.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 30%;
+    min-height: 60vh;
+    margin-bottom: 4%;
+}
+
+main {
+    width: 100vw;
+}
+
+.myServicesTitle {
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+}
+
+#myServicesDescription {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.myServicesImage {
+    width: 33%;
+    margin-top: 5%;
+}
+
+.myServicesText {
+    width: 33%;
+    margin-bottom: 5%;
+}
+
+.titleServices {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    color: #d1435e;
+    font-size: 100%;
+}
+
+#presentation {
+    background-color: rgb(254, 235, 231);
+    width: 100vw;
+    display: flex;
+}
+
+.presentationBox {
+    width: 50%;
+    margin: 5%;
+}
+
+#imageArtist {
+    margin-left: 50%;
+    width: 50%
+}
+
+#presentationText {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#linkPortfolioPage {
+    border: 15px solid #d1435e;
+    border-radius: 30px;
+    background-color: #d1435e;
+    width: 12%;
+}
+
+#linkPortfolioPage:hover {
+    font-weight: bold;
+}
+
+#clientOpinions {
+    width: 100vw;
+    background-color: rgb(254, 235, 231);
+}
+
+.clientOpinionsTitle {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+#clientOpinionsDescription {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+#imageDescription1 {
+    background-image: url(../image/DescriptionBlanche.jpg);
+    background-size: cover;
+}
+
+#imageDescription2 {
+    background-image: url(../image/DescriptionBlanche2.jpg);
+    background-size: cover;
+}
+
+#imageDescription3 {
+    background-image: url(../image/DescriptionBlanche3.jpg);
+    background-size: cover;
+}
+
+.clientOpinionsText {
+    width: 33%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.clientOpinionsTitle2 {
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+.swiper {
+    width: 100%;
+    height: 15vw;
+}
+
+#contactMe {
+    width: 100vw;
+    background-color: rgb(254, 235, 231);
+    display: flex;
+    justify-content: center;
+}
+
+#linkContactPage {
+    border: 15px solid #d1435e;
+    border-radius: 30px;
+    background-color: #d1435e;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#linkContactPage:hover {
+    font-weight: bold;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    margin-top: 2%;
+}
+
+#footerMark {
+    width: 100%;
+    text-align: center;
+}
+
+.darkMode {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 60px;
+    cursor: pointer;
+    border: 15px solid #000000;
+    border-radius: 30px;
+    background-color: #000000;
+    width: 10%;
+    color: white;
+}
+
+.footerText {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 50%;
+    text-align: center;
+}
+
+.footerTitle {
+    margin-bottom: 2%;
+}
+
+.imageLogoSocialMedia {
+    width: 1.5%;
+}
+
+.dark {
+    background-color: rgb(0, 0, 0);
+}
+
+.dark #imageLogoCompany {
+    filter: invert(1);
+}
+
+.dark .imageLogoSocialMedia {
+    filter: invert(1)
+}
+
+.dark p {
+    color: white;
+}
+
+.dark a {
+    color: white;
+}
+
+.dark .fontTitle {
+    color: white;
+}
+
+.dark .titleServices {
+    color: rgb(225, 202, 197);
+}
+
+.dark #presentation {
+    background-color: #d1435e;
+}
+
+.dark #linkPortfolioPage {
+    border: 15px solid rgb(225, 202, 197);
+    background-color: rgb(225, 202, 197);
+    color: black;
+}
+
+.dark .clientOpinionsTitle2 {
+    color: white;
+}
+
+.dark #clientOpinions {
+    background-color: #d1435e;
+}
+
+.dark #imageDescription1 {
+    background-image: url(../image/Descriptionnoire1.jpg);
+    background-size: cover;
+}
+
+.dark #imageDescription2 {
+    background-image: url(../image/Descriptionnoire2.jpg);
+}
+
+.dark #imageDescription3 {
+    background-image: url(../image/Descriptionnoire3.jpg);
+}
+
+.dark #clientOpinionsDescription {
+    background-color: #d1435e;
+}
+
+.dark #contactMe {
+    background-color: #d1435e;
+}
+
+.dark #linkContactPage {
+    border: 15px solid rgb(225, 202, 197);
+    background-color: rgb(225, 202, 197);
+    color: black;
+}
+
+.dark .footerText {
+    color: white;
+}
+
+.dark #footerMark {
+    filter: invert(1);
+}
+
+.dark .darkMode {
+    border: 15px solid  rgb(225, 202, 197);
+    background-color: rgb(225, 202, 197);
+    color: rgb(0, 0, 0);
+}
+
+@media screen and (max-width: 1024px) {
+
+    /* Nouvelles règles si la fenêtre fait  1024px de large ou moins */
+    #imageLogoCompany {
+        width: 70%;
+    }
+
+    #imageBackground {
+        min-height: 30vh;
+    }
+
+    #imageArtist {
+        margin-left: 20%;
+        width: 70%
+    }
+
+    #linkPortfolioPage {
+        width: 23%;
+    }
+}
